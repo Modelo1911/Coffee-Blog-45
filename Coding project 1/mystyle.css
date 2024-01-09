@@ -1,0 +1,45 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+
+/*header*/
+.site-init{
+    background-image: url(./Pic/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.read{
+    display: inline-block;
+    background-color: black;
+    background-size: cover;
+    text-align: left;
+    color: white;
+}
+
+.more{
+display: inline-block;
+background-color: brown;
+background-size: cover;
+text-align: left;
+color: white;
+}
+
+.coffee{
+    background-color: black;
+    color: white;
+}
