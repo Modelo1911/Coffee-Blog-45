@@ -10,36 +10,58 @@ p{
     line-height: 2;
 }
 img{
-    max-width: 100%;
+    max-width: 85%;
 }
-/*utilities*/
-
 /*header*/
 .site-init{
     background-image: url(./Pic/banner.jpg);
     background-size: cover;
-    height: 300px;
+    height: 400px;
     text-align: center;
     color: white;
+    font-size: 20px;
 }
-
-.read{
-    display: inline-block;
-    background-color: black;
-    background-size: cover;
-    text-align: left;
-    color: white;
-}
-
-.more{
-display: inline-block;
-background-color: brown;
-background-size: cover;
-text-align: left;
-color: white;
-}
-
 .coffee{
     background-color: black;
     color: white;
+}
+/*utilities*/
+.btn{
+    display: block;
+    width: 180px;
+    background-color: rgb(190, 123, 7);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*main*/
+main{
+    width: 50px;
+    margin-right: 20px;
+}
+/*blog*/
+.blog-container{
+    margin-top: 20px;
+}
+.blog-container h3{
+    margin-top: 20px;
+}
+.blog-container p{
+    margin-top: 20px;
+}
+.blog-container .btn{
+    background-color: black;
 }
