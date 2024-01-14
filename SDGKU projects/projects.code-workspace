@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "Coding project 1",
+			"path": "../../../Desktop/Coding project 1"
+		},
+		{
+			"name": "Pic",
+			"path": "Pic"
+		},
+		{
+			"name": "SDGKU projects",
+			"path": "."
+		},
+		{
+			"name": "realEstate-img-main",
+			"path": "realEstate-img-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SDGKU projects",
+		"liveServer.settings.port": 5501
+	}
+}
